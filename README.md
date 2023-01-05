@@ -1,6 +1,3 @@
-# Avengers
+##Central repository for chat-extension
 
-El cuartel general de los Avengers para aprender Git y GitHub
-
-## Nota
-Toda la información aquí utilizada sale de Wikipedia y Marvel.com
+- You must following the next steps for run this project:
