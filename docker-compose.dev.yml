@@ -1,0 +1,16 @@
+version: "3"
+services:
+  react-app:
+    build: .
+    environment:
+      - NODE_ENV=development
+    ports:
+      - 3000:3000
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    volumes:
+      - mongo:/data/db
+volumes:
+  mongo:
